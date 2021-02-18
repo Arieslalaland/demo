@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     font-family: monospace;
-    font-size: 1rem;
+    font-size:16px;
 }
 
 a {
@@ -53,21 +53,21 @@ a {
     margin-right: 9.9375rem;
     display:flex;
     justify-content: space-between;
-
     .modulo-container{
         position: relative;
-        margin-top:10.625rem;
-        margin-left: 12.25rem;
-
+        // padding: 1.875rem;
+        justify-content: center;
+        align-content: center;
+        margin-top:8.625rem;
+        // margin-left: 12.25rem;
         .titulo-uno{
             width: 33.6875rem;
             height: 5.125rem;
             border: solid 0.5px;
         }
-    
         .texto-container {
             width:27.25rem;
-            height: 4.375rem;
+            // height: 4.375rem;
             margin-top: 3.125rem;
             .texto{
                 width: 23.5rem;
@@ -76,7 +76,6 @@ a {
                 align-items: start;
             }
         }
-        
         .botones{
             display: flex;
             margin-top: 3.125rem;
@@ -93,12 +92,14 @@ a {
     }
 
     .foto-container{
-        margin-top: 5.625rem;
-        margin-right: 10.9375rem;
+        padding: 3.125rem;
+        margin-right: 10%;
+        align-content: start;
+        // margin-top: 5.625rem;
+        // margin-right: 10.9375rem;
         .foto-celu{
             width: 14.9375rem;
             height: 29.3125rem;
-            
             object-fit: cover;
         }
     }
@@ -385,7 +386,6 @@ a {
     align-items: center;
     flex-direction: column;
     .cuadro-titulo{
-
         margin-top: 5rem;
         width: 27.4375rem;
         height:2rem;
