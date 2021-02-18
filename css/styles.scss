@@ -106,43 +106,36 @@ a {
 }
 // <!-- SECCION DOS HOME -->
 .seccion-dos-home{
+    width: 100%;
+    height: 70vh;
     display: flex;
-    position: relative;
-    place-content: center space-between;
-    height: 31.25rem;
-    
-    .gran-super-container{
-        margin-left: 11.5rem;
-        .titulo-chico-centrado{
-            position: absolute;
-            width: 27.4375rem;
-            height: 2.625rem;
-            border: solid 0.5px;
-            margin-top:5.625rem;
-            margin-left: 33.125rem;
-            
-        }
+    flex-direction: column;
+    justify-content: space-evenly;
+            .titulo-chico-centrado{
+                width: 27.4375rem;
+                height: 2.625rem;
+                border: solid 0.5px;
+                margin-left: auto;
+                margin-right: auto;
+            }
         .numeros-container{
+            margin-left: auto;
+            margin-right: auto;
             display: flex;
             justify-content: space-around;
-            position: absolute;
+            margin-top: 6rem;
             width: 37.5rem;
-            margin-top:18.75rem;
-            margin-left: 28.125rem;
             font-weight:bold;
-    
             p{
                 font-size: 2.5rem;
             }
         }
         .pasos-container{
+            margin-left: auto;
+            margin-right: auto;
             display: flex;
             justify-content: space-evenly;
-            position: absolute;
-            margin-top:25rem;
-            margin-left: 28.125rem;
             width: 37.5rem;
-    
             .circulo-uno, .circulo-dos, 
             .circulo-tres, .circulo-cuatro, 
             .circulo-cinco{
@@ -158,11 +151,8 @@ a {
                 height:0;
                 width: 6.25rem;
                 margin-top: 3rem;
-                
             }
         }
-    }
-    
 }
 // <!-- SECCION TRES HOME -->
 .seccion-tres-home{
