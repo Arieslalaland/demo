@@ -392,6 +392,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 3rem;
 }
 
 .seccion-siete-home .modulo-primero {
@@ -458,7 +459,7 @@ a {
 .seccion-dos-nosotros {
   width: 100%;
   height: 100vh;
-  margin-top: 5.625rem;
+  margin-top: 9rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -511,8 +512,7 @@ a {
 
 .seccion-tres-nosotros {
   width: 100%;
-  margin-top: 3.125rem;
-  margin-bottom: 19.25rem;
+  margin: 5rem 0 5rem 0;
 }
 
 .seccion-tres-nosotros .gran-caja-uno {
@@ -564,48 +564,31 @@ a {
 
 .seccion-cuatro-nosotros {
   width: 100%;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 70vh;
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .seccion-cuatro-nosotros .modulo-nosotros-primero {
-  width: 50%;
-  height: 100%;
-  margin-left: 10.875rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding: 1rem;
+  margin: 5rem 1rem 1rem 1rem;
 }
 
-.seccion-cuatro-nosotros .modulo-nosotros-primero .contenedor-modulo-uno {
-  margin-left: 7.125rem;
-  margin-bottom: 10.345rem;
-  height: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.seccion-cuatro-nosotros .modulo-nosotros-primero .caja-texto-nosotros {
+  width: 33.6875rem;
+  height: 5.125rem;
+  border: solid 0.5px;
 }
 
-.seccion-cuatro-nosotros .modulo-nosotros-primero .contenedor-modulo-uno .caja-texto-nosotros {
-  width: 27.4375rem;
-  height: 3.875rem;
-  border: 0.5px solid;
+.seccion-cuatro-nosotros .modulo-nosotros-primero .contenedor-lin-mod-uno {
+  margin-top: 3.125rem;
 }
 
-.seccion-cuatro-nosotros .modulo-nosotros-primero .contenedor-modulo-uno .contenedor-lin-mod-uno .lin-mod-uno {
+.seccion-cuatro-nosotros .modulo-nosotros-primero .contenedor-lin-mod-uno .lin-mod-uno {
   margin-top: 1.125rem;
   width: 23.5rem;
   border-bottom: 0.5px solid;
@@ -615,43 +598,27 @@ a {
 }
 
 .seccion-cuatro-nosotros .modulo-nosotros-segundo {
-  height: 100%;
+  margin: 5rem 1rem 1rem 1rem;
 }
 
-.seccion-cuatro-nosotros .modulo-nosotros-segundo .super-contenedor {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
-  margin-right: 19.25rem;
-}
-
-.seccion-cuatro-nosotros .modulo-nosotros-segundo .super-contenedor .contenedor-caja-nosotros .caja-nosotros {
+.seccion-cuatro-nosotros .modulo-nosotros-segundo .contenedor-caja-nosotros .caja-nosotros {
   margin-top: 1.125rem;
   width: 31.25rem;
   height: 1.375rem;
   border: 0.5px solid;
 }
 
-.seccion-cuatro-nosotros .modulo-nosotros-segundo .super-contenedor .cajita {
+.seccion-cuatro-nosotros .modulo-nosotros-segundo .cajita {
   width: 31.25rem;
   height: 5.75rem;
   border: 0.5px solid;
+  margin-top: 3rem;
 }
 
-.seccion-cuatro-nosotros .modulo-nosotros-segundo .super-contenedor .boton-nosotros-sec-cuatro {
-  width: 11.1875rem;
-  height: 2.3125rem;
+.seccion-cuatro-nosotros .modulo-nosotros-segundo .boton-nosotros-sec-cuatro {
+  margin-top: 3rem;
+  width: 9.75rem;
+  height: 2.9375rem;
   border: solid 0.5px;
   border-radius: 2.875rem;
 }
@@ -811,8 +778,13 @@ a {
 }
 
 .footer .copywright-lin {
-  margin: 1.25rem 0 1.875rem 29.275rem;
+  position: relative;
+  margin-top: 3rem;
   width: 50%;
+  bottom: 2rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
   border-bottom: solid 0.5px;
 }
 /*# sourceMappingURL=styles.css.map */
